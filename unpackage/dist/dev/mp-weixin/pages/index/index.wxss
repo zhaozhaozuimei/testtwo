@@ -1,0 +1,124 @@
+.container {
+  background: #F0EFED;
+}
+.container .header {
+  display: flex;
+  height: 101rpx;
+  background: #FFCC00;
+}
+.container .header .city {
+  display: flex;
+  width: 120rpx;
+  height: 101rpx;
+  line-height: 101rpx;
+  text-align: center;
+  margin-left: 40rpx;
+  box-sizing: border-box;
+  font-size: 28rpx;
+}
+.container .header .city .iconfont {
+  font-size: 20rpx;
+  font-weight: 700;
+  margin-left: 10rpx;
+  color: #333333;
+}
+.container .header .search {
+  display: flex;
+  width: 501rpx;
+  height: 64rpx;
+  background: #FFFFFF;
+  border-radius: 20rpx;
+  line-height: 64rpx;
+  text-align: center;
+  margin-top: 20rpx;
+  padding-left: 25rpx;
+  font-size: 28rpx;
+  color: #C0C0C0;
+}
+.container .header .search .content {
+  margin-left: 18rpx;
+}
+.container .header .personal {
+  width: 94rpx;
+  height: 101rpx;
+  line-height: 101rpx;
+  text-align: center;
+}
+.container .header .personal image {
+  width: 48rpx;
+  height: 48rpx;
+  vertical-align: middle;
+}
+.container .recommends {
+  background: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container .recommends .recList {
+  width: 150rpx;
+  height: 140rpx;
+  display: flex;
+  flex-direction: column;
+  padding: 20rpx 0;
+}
+.container .recommends .recList .iconfont {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  background: #fd9d21;
+  margin: 0 38rpx 10rpx;
+  line-height: 80rpx;
+  text-align: center;
+  color: white;
+}
+.container .recommends .recList .content {
+  font-size: 24rpx;
+  color: #666;
+  margin: 0 auto;
+}
+.container .storeList {
+  background: white;
+  padding: 0 20rpx;
+  margin-top: 20rpx;
+}
+.container .storeList .storeScroll .storeItem {
+  width: 710rpx;
+  display: flex;
+  padding: 20rpx 0;
+  border-top: 1rpx solid #808080;
+}
+.container .storeList .storeScroll .storeItem .img {
+  width: 165rpx;
+  height: 150rpx;
+  margin-right: 20rpx;
+}
+.container .storeList .storeScroll .storeItem .img image {
+  width: 165rpx;
+  height: 150rpx;
+}
+.container .storeList .storeScroll .storeItem .storeDesc {
+  display: flex;
+  flex-direction: column;
+}
+.container .storeList .storeScroll .storeItem .storeDesc .detail {
+  font-size: 24rpx;
+  color: #808080;
+  overflow:  hidden;
+  text-overflow: ellipsis;
+  white-space:  nowrap;
+}
+.container .storeList .storeScroll .storeItem .storeDesc .price {
+  display: flex;
+  margin-top: 30rpx;
+  box-sizing: border-box;
+}
+.container .storeList .storeScroll .storeItem .storeDesc .price .desc .priceNumber {
+  font-size: 32rpx;
+  color: #FF6639;
+}
+.container .storeList .storeScroll .storeItem .storeDesc .price .count1 .count {
+  font-size: 24rpx;
+  color: #999999;
+  margin-left: 160rpx;
+}
+

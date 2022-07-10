@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "美团",
+    "navigationBarBackgroundColor": "#FFCC00",
+    "backgroundColor": "#FFCC00"
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}
